@@ -29,7 +29,7 @@ function App() {
     });
     setLatestNews((news) => [...news, ...newPage]);
   }
-  // if (isLoading) return <div className="loading"> loading...</div>;
+  if (isLoading) return <div className="loading"> loading...</div>;
   return (
     <>
       <div className="container">
